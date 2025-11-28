@@ -1,5 +1,5 @@
 import './App.css'
-import Accepted from './comppnents/Accepted'
+import Accepted from './components/Accepted'
 
 function App() {
 
