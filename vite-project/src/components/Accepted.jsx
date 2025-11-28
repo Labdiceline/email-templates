@@ -2,15 +2,10 @@ import React from 'react'
 import { assets } from '../assets/assests'
 const Accepted = () => {
   return (
-    <div className='bg-black h-screen mx-auto '>
-      <div className="flex justify-center pt-5">
-        <div className="flex flex-col items-start">
-          <div className="text-pink-700 font-bold sm:text-2xl">She</div>
-          <div className="text-green-600 font-bold sm:text-2xl">Hacks</div>
-        </div>
-      </div>
+    <div className='bg-black min-h-screen mx-auto pt-12 '>
+        <img className='w-32 mx-auto' src={assets.sheHacks_logo} />
 
-<div className="p-6 text-green-600  max-w-[600px] sm:max-w-[800px] mx-auto m-5">
+<div className="p-6 text-green-600  max-w-[600px] sm:max-w-[800px] mx-auto ">
   <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. 
     Cras venenatis euismod malesuada. Curabitur sit amet sem vitae urna tincidunt tincidunt. 
@@ -30,7 +25,7 @@ const Accepted = () => {
       <p className='text-pink-700  text-center p-5'> The SheHacks Team</p>
 
 </div>
-<div className='flex justify-center'>
+<div className='flex justify-center pb-5'>
   <img className='w-20' src={assets.shellmates_logo}  alt='/'/>
   <div className='h-20 w-1 bg-pink-700 mx-4'></div>
   <img className='w-20 ' src={assets.shellmates_logo}  alt='/'/>
