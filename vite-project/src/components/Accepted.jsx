@@ -31,7 +31,8 @@ const Accepted = () => {
 
 </div>
 <div className='flex justify-center'>
-  <img className='w-20 h-20 border-r-4 border-pink-700 ' src={assets.shellmates_logo}  alt='/'/>
+  <img className='w-20' src={assets.shellmates_logo}  alt='/'/>
+  <div className='h-20 w-1 bg-pink-700 mx-4'></div>
   <img className='w-20 ' src={assets.shellmates_logo}  alt='/'/>
 
 </div>
