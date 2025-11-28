@@ -5,7 +5,7 @@ const Accepted = () => {
     <div className='bg-black min-h-screen mx-auto pt-12 '>
         <img className='w-32 mx-auto' src={assets.sheHacks_logo} />
 
-<div className="p-6 text-green-600  max-w-[600px] sm:max-w-[800px] mx-auto ">
+<div className="p-6 text-green-600  max-w-[600px] sm:max-w-[800px] mx-auto mt-5">
   <p>
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. 
     Cras venenatis euismod malesuada. Curabitur sit amet sem vitae urna tincidunt tincidunt. 
